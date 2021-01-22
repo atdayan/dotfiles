@@ -5,17 +5,13 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-# Activate vi mode with <Escape>:
-#set -o vi
-
 alias z='devour zathura'
-alias iv='devour sxiv'
+alias sxiv='devour sxiv'
 alias mpv='devour mpv'
 alias pc='devour pavucontrol'
 alias untar='tar -zxvf'
 alias myip='curl ipinfo.io/ip'
 alias lm='ls -t -1'
-alias terraria='./.terraria/start.sh & exit'
 alias bashrc='vim ~/.bashrc ; source ~/.bashrc'
 alias cache='cd ~/.cache'
 alias config='cd ~/.config'
