@@ -1,4 +1,4 @@
-xrandr --output HDMI-1 --auto --output DP-1 --auto --left-of HDMI-1
+xrandr --output HDMI-1 --auto --output DP-1 --auto --right-of HDMI-1
 xset r rate 300 50
 xrdb ~/.Xresources
 wal -R
