@@ -1,25 +1,24 @@
-"set termguicolors
-"let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
-"let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
-"set background=dark
-"let g:gruvbox_contrast_dark = 'hard'
-"let g:dracula_italic = 0
-"packadd! dracula
-
 call plug#begin()
 Plug 'dylanaraps/wal.vim'
 call plug#end()
 
 colorscheme wal
 
+
 syntax enable
 set number
+set relativenumber
 set ignorecase
 set smartcase
 set showcmd
+set incsearch
 set hlsearch
-filetype indent plugin on
+set laststatus=2
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
+nmap Q <Nop>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
