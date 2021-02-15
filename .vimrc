@@ -52,4 +52,4 @@ set ttimeoutlen=10
 " recompile suckless programs automatically:
 autocmd BufWritePost config.def.h !sudo make clean install
 
-nnoremap ,c :-1read $HOME/c<CR>o<Tab>
+nnoremap ,c :-1read $HOME/.vim/snippets/c_main.snippet<CR>o<Tab>
