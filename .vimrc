@@ -6,13 +6,14 @@ colorscheme wal
 
 let mapleader=","
 
-"syntax enable
-set incsearch smartcase ignorecase nohlsearch
+syntax enable
+set incsearch ignorecase smartcase 
 
 set nocompatible
 set number
 set relativenumber
 set showcmd
+set wildmenu
 set laststatus=2
 set scrolloff=4
 set nobackup noswapfile
